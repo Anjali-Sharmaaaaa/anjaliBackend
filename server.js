@@ -6,7 +6,7 @@ const dbConfig = require("./app/config/db.config");
 
 const app = express();
 
-app.use(cors());
+// app.use(cors());
 /* for cors - unblock ip or domain*/
 app.use(
   cors({
